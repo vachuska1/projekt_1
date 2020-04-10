@@ -1,0 +1,28 @@
+.contInfo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding: 20px;
+  margin: 20px;
+  border: solid 1px orange;
+  border-radius: 8px;
+}
+.contInfo__image {
+  width: 100px;
+  height: 57px;
+  border: solid 1px #000;
+}
+.contInfo__image--1 {
+  background: url("https://learn.zoner.com/wp-content/uploads/2018/08/landscape-photography-at-every-hour-part-ii-photographing-landscapes-in-rain-or-shine.jpg") no-repeat center / cover;
+}
+.contInfo__image--2 {
+  width: 200px;
+  height: 114px;
+  background: url("https://learn.zoner.com/wp-content/uploads/2018/08/landscape-photography-at-every-hour-part-ii-photographing-landscapes-in-rain-or-shine.jpg") no-repeat top left / cover;
+}
+.contInfo__image--3 {
+  background: url("https://learn.zoner.com/wp-content/uploads/2018/08/landscape-photography-at-every-hour-part-ii-photographing-landscapes-in-rain-or-shine.jpg") no-repeat bottom right / cover;
+}
+.contInfo__image--4 {
+  background: url("https://learn.zoner.com/wp-content/uploads/2018/08/landscape-photography-at-every-hour-part-ii-photographing-landscapes-in-rain-or-shine.jpg") no-repeat center / 100px 57px;
+}
